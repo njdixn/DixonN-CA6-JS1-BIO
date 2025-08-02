@@ -5,7 +5,7 @@ const computerChoice = 'Bear';
 let playerName = prompt('Welcome to Bear Hunter Ninja! Please enter your name to get started:');
 
 // show player's name in console
-let amessage = `You have entered: ${playerName}`;
+let consoleMessage = `You have entered: ${playerName}`;
 console.log('The players name is ' + playerName); 
 
 // Let's play message with players name
@@ -23,6 +23,10 @@ let resultMessageComputer = 'The computer picked ' + computerChoice + '. ';
 
 // varaible for the results to be displayed
 let gameResult = '';
+
+// show player's name in console
+let consoleResultMessage = `resultMessagePlayer + resultMessageComputer`;
+console.log('The results are ' + consoleResultMessage); 
 
 // Result in HTML
 document.getElementById('gameResult').innerHTML =  resultMessagePlayer + '<br>' + resultMessageComputer;
