@@ -25,7 +25,7 @@ let resultMessageComputer = 'The computer picked ' + computerChoice + '. ';
 let gameResult = '';
 
 // show player's name in console
-let consoleResultMessage = `resultMessagePlayer + resultMessageComputer`;
+let consoleResultMessage = resultMessagePlayer + resultMessageComputer;
 console.log('The results are ' + consoleResultMessage); 
 
 // Result in HTML
